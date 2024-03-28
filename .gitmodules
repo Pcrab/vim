@@ -1,0 +1,132 @@
+[submodule "tpope-repeat"]
+	path = pack/dependencies/start/repeat
+	url = https://tpope.io/vim/repeat.git
+[submodule "vim-radical"]
+	path = pack/editor/start/vim-radical
+	url = https://github.com/glts/vim-radical.git
+[submodule "pack/editor/start/speeddating"]
+	path = pack/editor/start/speeddating
+	url = https://tpope.io/vim/speeddating.git
+[submodule "pack/editor/start/surround"]
+	path = pack/editor/start/surround
+	url = https://tpope.io/vim/surround.git
+[submodule "pack/editor/start/fugitive"]
+	path = pack/editor/start/fugitive
+	url = https://tpope.io/vim/fugitive.git
+[submodule "pack/editor/start/commentary"]
+	path = pack/editor/start/commentary
+	url = https://tpope.io/vim/commentary.git
+[submodule "pack/editor/start/endwise"]
+	path = pack/editor/start/endwise
+	url = https://tpope.io/vim/endwise.git
+[submodule "pack/editor/start/vim-characterize"]
+	path = pack/editor/start/vim-characterize
+	url = https://github.com/tpope/vim-characterize.git
+[submodule "pack/editor/start/unimpaired"]
+	path = pack/editor/start/unimpaired
+	url = https://tpope.io/vim/unimpaired.git
+[submodule "pack/base/start/sensible"]
+	path = pack/base/start/sensible
+	url = https://tpope.io/vim/sensible.git
+[submodule "pack/base/start/sleuth"]
+	path = pack/base/start/sleuth
+	url = https://tpope.io/vim/sleuth.git
+[submodule "pack/base/start/scriptease"]
+	path = pack/base/start/scriptease
+	url = https://tpope.io/vim/scriptease.git
+[submodule "pack/base/start/eunuch"]
+	path = pack/base/start/eunuch
+	url = https://tpope.io/vim/eunuch.git
+[submodule "pack/dependencies/start/vim-magnum"]
+	path = pack/dependencies/start/vim-magnum
+	url = https://github.com/glts/vim-magnum
+[submodule "pack/editor/start/vim-which-key"]
+	path = pack/editor/start/vim-which-key
+	url = https://github.com/liuchengxu/vim-which-key.git
+[submodule "pack/dependencies/start/vim-snippets"]
+	path = pack/dependencies/start/vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "pack/dependencies/start/vim-devicons"]
+	path = pack/dependencies/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule "pack/dependencies/start/nerdtree-git-plugin"]
+	path = pack/dependencies/start/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "pack/dependencies/start/tlib_vim"]
+	path = pack/dependencies/start/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "pack/dependencies/start/vim-addon-mw-utils"]
+	path = pack/dependencies/start/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "pack/appearance/start/vim"]
+	path = pack/appearance/start/vim
+	url = https://github.com/rose-pine/vim
+[submodule "pack/appearance/start/lightline.vim"]
+	path = pack/appearance/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/editor/start/LeaderF"]
+	path = pack/editor/start/LeaderF
+	url = https://github.com/Yggdroot/LeaderF
+[submodule "pack/dependencies/start/nerdfont.vim"]
+	path = pack/dependencies/start/nerdfont.vim
+	url = https://github.com/lambdalisue/nerdfont.vim
+[submodule "pack/dependencies/start/glyph-palette.vim"]
+	path = pack/dependencies/start/glyph-palette.vim
+	url = https://github.com/lambdalisue/glyph-palette.vim
+[submodule "pack/dependencies/start/fern-renderer-nerdfont.vim"]
+	path = pack/dependencies/start/fern-renderer-nerdfont.vim
+	url = https://github.com/lambdalisue/fern-renderer-nerdfont.vim
+[submodule "pack/dependencies/start/fern-git-status.vim"]
+	path = pack/dependencies/start/fern-git-status.vim
+	url = https://github.com/lambdalisue/fern-git-status.vim
+[submodule "pack/editor/start/fern.vim"]
+	path = pack/editor/start/fern.vim
+	url = https://github.com/lambdalisue/fern.vim
+[submodule "pack/editor/start/vim-gitgutter"]
+	path = pack/editor/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/lang/start/vim-lsp-settings"]
+	path = pack/lang/start/vim-lsp-settings
+	url = https://github.com/mattn/vim-lsp-settings
+[submodule "pack/lang/start/vim-lsp"]
+	path = pack/lang/start/vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp
+[submodule "pack/editor/start/ultisnips"]
+	path = pack/editor/start/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "pack/dependencies/start/asyncomplete-ultisnips.vim"]
+	path = pack/dependencies/start/asyncomplete-ultisnips.vim
+	url = https://github.com/prabirshrestha/asyncomplete-ultisnips.vim
+[submodule "pack/editor/start/asyncomplete.vim"]
+	path = pack/editor/start/asyncomplete.vim
+	url = https://github.com/prabirshrestha/asyncomplete.vim
+[submodule "pack/dependencies/start/asyncomplete-lsp.vim"]
+	path = pack/dependencies/start/asyncomplete-lsp.vim
+	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim
+[submodule "pack/lang/start/guile.vim"]
+	path = pack/lang/start/guile.vim
+	url = https://github.com/HiPhish/guile.vim
+[submodule "pack/editor/start/rainbow"]
+	path = pack/editor/start/rainbow
+	url = https://github.com/luochen1990/rainbow.git
+[submodule "pack/editor/start/vim-sexp"]
+	path = pack/editor/start/vim-sexp
+	url = https://github.com/guns/vim-sexp
+[submodule "pack/editor/start/vim-sexp-mappings-for-regular-people"]
+	path = pack/editor/start/vim-sexp-mappings-for-regular-people
+	url = https://github.com/tpope/vim-sexp-mappings-for-regular-people
+[submodule "pack/lang/start/vista.vim"]
+	path = pack/lang/start/vista.vim
+	url = https://github.com/liuchengxu/vista.vim.git
+[submodule "pack/lang/start/vim-slime"]
+	path = pack/lang/start/vim-slime
+	url = https://github.com/jpalardy/vim-slime
+[submodule "pack/lang/start/vim-orgmode"]
+	path = pack/lang/start/vim-orgmode
+	url = https://github.com/jceb/vim-orgmode
+[submodule "pack/dependencies/start/vim-gutentags"]
+	path = pack/dependencies/start/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags
+[submodule "pack/dependencies/start/asyncomplete-tags.vim"]
+	path = pack/dependencies/start/asyncomplete-tags.vim
+	url = https://github.com/prabirshrestha/asyncomplete-tags.vim
