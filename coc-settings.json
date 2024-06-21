@@ -1,0 +1,4 @@
+{
+  "git.addGBlameToVirtualText": true,
+  "git.changeRemovedSign.text": "x"
+}
