@@ -11,8 +11,8 @@ endif
 
 # Run PlugInstall if there are missing plugins
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)')) > 0
-  \| PlugInstall --sync | source $MYVIMRC
-\| endif
+        |   PlugInstall --sync | source $MYVIMRC
+        | endif
 
 def Source(source_file: string)
   const $__tmp_vim_full_source_file_name = data_dir .. '/' .. source_file
@@ -47,7 +47,12 @@ plug#begin()
   Plug 'morhetz/gruvbox'
   Plug 'itchyny/lightline.vim'
 
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'yegappan/lsp'
+  Plug 'girishji/vimcomplete'
+  Plug 'girishji/autosuggest.vim'
+  Plug 'hrsh7th/vim-vsnip'
+  Plug 'hrsh7th/vim-vsnip-integ'
+  Plug 'rafamadriz/friendly-snippets'
 
   Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
 
@@ -59,6 +64,8 @@ plug#begin()
   Plug 'github/copilot.vim'
 
   Plug 'cohama/lexima.vim'
+
+  Plug 'preservim/nerdtree'
 plug#end()
 
 silent! colorscheme gruvbox
@@ -70,41 +77,10 @@ const g:lightline = {
 noremap x "_x
 noremap X "_X
 
+## LSP
+Source('lsp.vim')
+
 nnoremap <Esc> <Cmd>nohls<CR>
-
-# ## COC
-const g:coc_global_extensions = [
-  'coc-json',
-  'coc-git',
-  'coc-explorer',
-  ]
-
-nnoremap <C-b> <Cmd>CocCommand explorer<CR>
-
-# # GoTo code navigation
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-
-# # Use K to show documentation in preview window
-nnoremap <silent> K :call ShowDocumentation()<CR>
-
-def ShowDocumentation()
-  if CocAction('hasProvider', 'hover')
-    call CocActionAsync('doHover')
-  else
-    call feedkeys('K', 'in')
-  endif
-enddef
-# Highlight the symbol and its references when holding the cursor
-autocmd CursorHold * silent call CocActionAsync('highlight')
-# Symbol renaming
-nmap <leader>rn <Plug>(coc-rename)
-# Remap keys for applying code actions at the cursor position
-nmap <leader>ca  <Plug>(coc-codeaction-cursor)
-# Run the Code Lens action on the current line
-nmap <leader>cl  <Plug>(coc-codelens-action)
 
 ## LeaderF
 nnoremap <C-g> <Cmd>Leaderf rg<CR>
